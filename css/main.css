@@ -27,6 +27,7 @@ body {
 
 
 .navbar-default .navbar-btn {
+  text-align: center;
   border-color: #c3995e;
   border-width: 2px;
   border-radius: 10px;
@@ -36,18 +37,18 @@ body {
   margin-right: 25px;
 
   
+
+  
 }
 
 .navbar-default .navbar-btn img {
   height: 30%;
   width: 30%;
-  padding-right: 4px;
+  float: left;
+
 
 }
 
-.navbar-default .navbar-brand {
-
-}
 
 img {
     display: block;
