@@ -2,17 +2,25 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
+  
 
 } 
 
-.navbar-default .navbar-header {
-  height: 250px;
+.navbar-default {
+  background-color: white;
+  border: none;
 }
+
+.navbar-default .navbar-header {
+  height: 175px;
+}
+
+
 
 .navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
   font-size: 1em;
-  padding-top: 115px;
+  padding-top: 75px;
   padding-right: 25px;
 }
 
@@ -24,7 +32,8 @@ body {
   border-radius: 10px;
   color: #c3995e;
   text-transform: uppercase;
-  margin-top: 105px;
+  margin-top: 60px;
+  margin-right: 25px;
 
   
 }
@@ -37,10 +46,41 @@ body {
 }
 
 .navbar-default .navbar-brand {
-  margin-top: 20px;
+
 }
 
-.mainbgimage {
-  height: 800px;
-  padding-top: 250px;
+img {
+    display: block;
 }
+
+#mainImage {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
+#largeText {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate( -50%, -50% );
+    text-align: justify-content;
+    color: white;
+    background: #c3995e;
+    background: linear-gradient(to top, #c3995e 0%, rgba(.76, .60, .37, 0) 30%) repeat scroll 0 0 rgba(.76, .6, .37, 0);
+  
+  
+}
+
+#smallText {
+   position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate( -50%, -50% );
+    text-align: justify-content;
+    color: white;
+}
+
+
