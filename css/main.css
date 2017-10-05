@@ -177,5 +177,30 @@ hr {
   border-top: 5px solid  #5BB842;
 }
 
+footer {
+  position: relative;
+  background: #f0f0f0;
+  float: left;
+  margin: 40px 15px 0;
+  height: 200px;
+  width: 100%;
+  border-top: #5BB842 solid 5px;
+}
 
+footer p {
+  padding-top: 50%;
+  color: #6d6d6d;
+
+}
+footer img {
+  padding-top: 20%;
+}
+
+footer  .socialMedia > img{
+  margin: 0 150px;
+  
+  
+ 
+
+}
  
