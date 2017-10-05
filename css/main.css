@@ -9,6 +9,7 @@ body {
 .navbar-default {
   background-color: white;
   border: none;
+  margin: 30px 15px 0;
 }
 
 .navbar-default .navbar-header {
@@ -26,7 +27,7 @@ body {
 
 
 
-.navbar-default .navbar-btn {
+.navbar-btn {
   text-align: center;
   border-color: #c3995e;
   border-width: 2px;
@@ -35,7 +36,8 @@ body {
   text-transform: uppercase;
   margin-top: 60px;
   margin-right: 25px;
-  padding: 5px 5px;
+  padding: auto 5px;
+  line-height: 2em;
 }
 
 .navbar-default .navbar-btn img {
@@ -181,9 +183,9 @@ footer {
   position: relative;
   background: #f0f0f0;
   float: left;
-  margin: 40px 15px 0;
+  margin: 30px 15px;
   height: 200px;
-  width: 100%;
+  width: 98%;
   border-top: #5BB842 solid 5px;
 }
 
@@ -194,13 +196,8 @@ footer p {
 }
 footer img {
   padding-top: 20%;
+  
 }
 
-footer  .socialMedia > img{
-  margin: 0 150px;
-  
-  
- 
 
-}
  
