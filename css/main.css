@@ -52,6 +52,7 @@ img {
 #mainImage {
     position: relative;
     display: inline-block;
+    border-bottom: #5BB842 solid 5px;
 
 }
 
@@ -169,3 +170,12 @@ h4 {
   font-size: 0.9em;
 }
 
+hr {
+ 
+  height: 25%;
+  border: 0;
+  border-top: 5px solid  #5BB842;
+}
+
+
+ 
