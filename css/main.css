@@ -20,9 +20,14 @@ body {
 
 .navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
+  color: #6d6d6d;
   font-size: 1em;
   padding-top: 75px;
   padding-right: 25px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #c3995e;
 }
 
 
@@ -38,6 +43,10 @@ body {
   margin-right: 25px;
   padding: auto 5px;
   line-height: 2.25em;
+}
+
+.navbar-btn:hover{
+  background-color: #6d6d6d;
 }
 
 .navbar-default .navbar-btn img {
@@ -93,6 +102,10 @@ p > .btn-primary {
   font-size: 0.9em;
 }
 
+p > .btn-primary:hover {
+  background: #6d6d6d;
+}
+
 h4 {
   color: #6d6d6d;
   text-align: center;
@@ -124,6 +137,11 @@ h4 {
   font-size: 0.9em;
 }
 
+.leftButton:hover {
+  background: #6d6d6d;
+  color: white;
+}
+
 #centerImage {
   position: relative;
 }
@@ -146,6 +164,11 @@ h4 {
   border: none;
   padding: 5px 35px;
   font-size: 0.9em;
+}
+
+.centerButton:hover {
+  background: #6d6d6d;
+  color: white;
 }
 
 #rightImage {
@@ -172,12 +195,12 @@ h4 {
   font-size: 0.9em;
 }
 
-hr {
- 
-  height: 25%;
-  border: 0;
-  border-top: 5px solid  #5BB842;
+.rightButton:hover {
+  background: #6d6d6d;
+  color: white;
 }
+
+
 
 footer {
   position: relative;
