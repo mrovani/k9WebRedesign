@@ -3,11 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <title>K9S 4 MOBILITY</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Website Redesign">
+    <meta name="author" content="Margarita Rovani">
+
+  <title>K9's 4 Mobility</title>
 
   <!-- BOOTSTRAP CSS LINK -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <!--CSS MAIN-MIN LINK -->
   <link rel="stylesheet" href="css/min/main-min.css">
@@ -16,67 +20,64 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
 </head>
 
-<body>
-  <div class="container">
-    <div class="row">
+<body id="page-top">
 
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-custom">
+        <div class="container">
 
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-            aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>Menu<i class="fa fa-bars"></i>
+              </button>
 
-          <a class="navbar-brand" href="#"><img src="/images/mainLogo.svg" width="80%"></a>
+          <a class="navbar-brand" href="#page-top"><img src="/images/mainLogo.svg"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+
+        <div class="navbar navbar-collapse collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About</a></li>
-            <li><a href="#">How to Help</a></li>
-            <li><a href="#">Assistance Dogs</a></li>
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="howToHelp.html">How to Help</a></li>
             <li><a href="#">Applications</a></li>
-            <li><a href="#">News</a></li>
-            <button type="button" class="btn btn-default navbar-btn btn"><img src="/images/donateIcon.png">Donate</button>
+            <li><a href="#">Donate</a></li>
           </ul>
         </div>
     </div>
     <!--/.navbar-collapse -->
-  </div>
+
   </nav>
 
 
   <!-- Main image -->
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-lg-12">
         <div id="mainImage">
-          <img src="/images/mainImage.png" alt="woman jogging with dog" class="img-responsive">
+          <img src="/images/mainImage.jpeg" alt="woman walking with dog" class="img-responsive">
         </div>
         <div id="largeText">
-          <h3>TRICKS 4 TREATS 5K <br> Run 4 A Reason</h3>
-
-          <h3>October 14, 2017</h3>
+          <h3>TRICKS 4 TREATS 5K <br> Run 4 A Reason <br> October 14, 2017</h3>
         </div>
         <div id="smallText">
           <h5>Lions Park @ 10am <br>followed by Treats and Costume Contest</h5>
         </div>
-        <p><a class="btn btn-primary" href="#" role="button">More Events</a></p>
+
+          <p><a class="btn btn-xl btn-primary" href="#" role="button">More Events</a></p>
+
       </div>
     </div>
   </div>
 
   <div class="container">
     <div class="row">
-      <p>
+      <div class="col-lg-12">
         <h4>K9s 4 Mobility is dedicated to enriching the lives of others through the training, placement and support of Assistance
           Dog Partnerships.
         </h4>
-      </p>
+      </div>
     </div>
   </div>
 
@@ -109,7 +110,7 @@
       <footer>
         <div class="col-sm-8 col-sm-pull4">
           <div class="col-md-3">
-            <img src="/images/logo2.png" class="footerLogo" alt="Logo">
+            <img class="footerLogo" src="/images/logo2.png"  alt="Logo">
           </div>
           <div class="col-md-3">
             <p>11805 Campstool Road <br> Cheyenne, WY, 82007</p>
@@ -124,7 +125,7 @@
       </footer>
 
     </div>
-  </div>
+</div>
 
 
   <!-- /container -->
@@ -133,8 +134,8 @@
   <!-- JQUERY LINK -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- BOOTSTRAP JAVASCRIPT LINK -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"</script>
+
   <!--JAVASCRIPT MAIN MIN LINK -->
   <script src="scripts/min/main-min.js" charset="utf-8"></script>
 </body>
